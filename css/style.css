@@ -1,66 +1,41 @@
-* {
-}
 body {
-    /*background-size: contain;*/
-    /*background: url("../assets/images/can.jpg") no-repeat;*/
+    margin: 0;
+    font-family: 'Lexend', sans-serif;
 }
 
-/*   This is my
-     first heading
-     just to remind
-     you */
-#first-heading {
-    font-family: 'Pixelify Sans', cursive;
-    color: rgb(0, 255, 0); /* this is my main color*/
-    background-color: transparent;
-    font-size: 72px;
-    width: 200px;
-    height: 200px;
+header {
+    height: 64px;
+    background: yellowgreen;
+    display: flex;
+    align-items: center;
+    padding: 0 8px 0 8px;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
 }
 
-#first-heading span {
-    color: red;
+header nav ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
 }
 
-/*#first-heading-sub-word {*/
-/*    color: red;*/
-/*}*/
-
-#second-heading {
-    color: blue;
-    background-color: transparent;
-    border-style: solid;
-    border-width: 8px;
-    border-color: green;
-    /*border-top-style: none;*/
-    border-right-color: #000;
-    /*border-radius: 16px;*/
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
+.nav-link {
+    display: inline-block;
+    padding: 0 16px 0 16px;
 }
 
-#third-heading {
-    color: brown;
-}
-
-.generic-heading {
-    font-size: 42px;
-    background-color: orange;
-}
-
-p {
-    font-weight: bold;
-    background-color: aqua;
-}
-
-a {
-    font-size: 64px;
-    border-style: solid;
-    border-radius: 8px;
+.nav-link a {
     text-decoration: none;
+    color: white;
 }
 
-a:hover {
-    background-color: lightgreen;
+.nav-link:hover {
+    background-color: lightgrey;
+    border-radius: 4px;
 }
 
+.active {
+    background-color: indianred;
+    border-radius: 4px;
+}
